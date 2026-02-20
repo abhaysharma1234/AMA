@@ -50,7 +50,7 @@ The `ls` command is used to list files and directories in Linux. Some common fla
 
 ## 13. Why is input in Python a string type?
 
-In Python, the `input()` function always returns data as a string by default. This is because user input is treated as text. If we want a number, we need to convert it using `int()` or `float()`.
+Python’s `input()` function returns a string because data typed from the keyboard is received as text characters. Python cannot automatically determine whether the user intends an integer, float, or another type, so it safely keeps the value as a string by default.
 
 ## 14. How to delete the last item in a dictionary?
 
